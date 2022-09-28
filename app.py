@@ -294,6 +294,5 @@ if __name__ == "__main__":
 
 
 
-    #Saving to sqllite is not working
-    #changed form action to view the chart in next.html
+   
    

@@ -225,10 +225,11 @@ def upload_file():
                 lis=[]
                 lis=tmp.split('/')
                 for i in lis:
+                    i=i.lower()
                     if text.find(i)!=-1:
-                        if tmp in text_content:
-                            text_content.remove(tmp)
                         text_content.append(i)
+                    if tmp in text_content:
+                        text_content.remove(tmp)
 
              #convert all the elements of keyword list to lower case
             text_keywords=[]

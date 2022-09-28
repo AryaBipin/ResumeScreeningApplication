@@ -255,7 +255,7 @@ def upload_file():
             for i in text_keywords:
                 if text.find(i) != -1:
                     cou=text.count(i)
-                    while cou!=0:
+                    while cou>0:
                         requiredWords.append(i)
                         cou=cou-1                    
             wordfreqdist = nltk.FreqDist(requiredWords)

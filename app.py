@@ -225,7 +225,7 @@ def upload_file():
                 lis=[]
                 lis=tmp.split('/')
                 for i in lis:
-                    if i in text:
+                    if text.find(i)!=-1:
                         if tmp in text_content:
                             text_content.remove(tmp)
                         text_content.append(i)

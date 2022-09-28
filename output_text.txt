@@ -1,0 +1,127 @@
+Sreeram C Pillai
+
+Java/J2EE developer with 7 Years and 7 Months of Experience.
+Looking for a Senior Java Developer position.
+
+EXPERIENCE
+
+Cognizant Technology Solutions, Kochi
+May 2019 - PRESENT
+
+Tata Consultancy Services on Contract with ILabz Technology
+LLP, Kochi
+
+Dec 2017 - Apr 2019
+
+Focuz Infotech, Kochi — SE
+Feb 2015 - Dec 2017
+
+CineSoft Pvt Ltd, Kochi — SE
+June 2014 - Dec 2014
+
+TECHNICAL SKILLS
+
+Java Technologies: Core Java, J2EE, Spring Boot, Microservices, Spring
+Batch, Spring Integration, Spring Security, Rest Web Services, Hibernate,
+JPA, Struts, JavaScript, JSP, Junit
+
+Amazon Web Services: IAM, VPC, EC2, ECS, $3, RDS, CloudWatch
+DB Technologies: PostgreSQL, Microsoft SQL Server 2008
+Versioning Tool: GIT, SVN
+
+Build Tool: Maven, Gradle
+
+CI/CD Tools: Docker, Jenkins, Bitbucket, Bamboo, SonarQube, Groovy
+
+IDE: Eclipse, Intellij, STS, Putty
+
+PROJECTS
+Cognizant Insurance Intake Automation — 15/05/2019 —
+Present
+
+CIIA (Cognizant Insurance Intake Automation) - CIIA is a data intake service
+that automatically reads structured documents and emails (across multiple
+formats including PDF, image, excel, and word) and converts them to structured
+data to integrate with downstream systems. Cognizant Insurance Intake
+
+Thirumanasseryl (H),
+
+Oorukkary PO,
+
+Ramankary,
+
+Alappuzha
+
++91-9605259746
+sreeramcpillai.scp4@gmail.com
+
+SKILLS
+
+Extensive experience in developing
+Web Application using Spring
+Framework.
+
+Proficient in Object oriented
+architecture and MVC _ design
+pattern.
+
+Worked on Agile Projects for past 4
+years.
+
+Possess. strong technical and
+domain knowledge in Insurance
+sector. Also worked for Retail,
+Finance and Accounts domains.
+
+Self-starter, highly motivated, able
+to operate under any
+circumstances, both in_ selfmanaged and team environments
+
+LANGUAGES
+
+English, Malayalam, Hindi, Tamil
+Automation has a powerful business rule and transformation engine that helps
+to validate, and triage extracted data.
+
+Sanlam- Kwaito- DevOps — 26/12/2017 —30/04/2019
+
+Composite Framework — Worked as application developer. Working on Spring
+Boot, and Java 1.8, MSSQL DB. Project was part of Sanlam’s change in
+methodology from Waterfall to Agile with continuous delivery to client. This
+project involved designing and development of a custom-made Test Data
+management Solution to the Users inside Sanlam which uses the Application.
+
+Goods and Service Tax — 06/06/2017 —08/12/2017
+
+Focuz Group of Companies having four companies and all of these having
+different ERP Solutions. All of these ERP Solutions were designed and runs on
+single tax system. We are restructured and re implemented the software
+according to Goods and Service Taxes. Various modules of application get
+changed are as follows. Inventory, Purchase, Sales, Stock Transfer Advice,
+Pricing, Service, Accounts. All the Invoice forms and Service Bills are modified.
+Invoice format and bills format are designed as per the Central Government
+rules and regulations. Internal reports and registers are modified as per the
+directions of internal auditors. All new External reports GSTR1, GSTR2, GSTR3
+are designed and created as per the format given by Central GST Council.
+
+TechFocuz Parts Mart — 12/02/2015 —05/06/2017
+
+TechFocuz Parts Mart is an ERP Solutions for Focuz Parts Mart. It maintains
+centralized stock and tracks each item so that it is able to fetch stock status and
+item status online. The pricing mechanism allows to set price effectively that
+helps to ensure the profit. It provides all sorts of reports to assess the daily
+activities as well as to analyses whether it meets the predefined specifications,
+if it does not meet then helps to take corrective steps. Various modules of
+application are Inventory, Purchase, Sales, Stock Transfer Advice, Pricing,
+Service, Accounts and HRMS.
+
+EDUCATION
+
+PSV CET Krishnagiri, AU— Bachelor of Engineering (CSE)
+2010-2014
+
+NS HSS, Nedumudy — Computer Science
+2008 - 2010
+
+St:Xaviers HS, Mithrakary — SSLC
+2008

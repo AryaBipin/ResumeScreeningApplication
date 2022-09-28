@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume Screening Application</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="static\uploads\Screenshot_2022-09-20_165858-removebg-preview.png" style="width:100%;opacity:100%;background-color:black"/>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-search w3-xxlarge"></i>
+    <p>tab2</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-print w3-xxlarge"></i>
+    <p>tab3</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>tab4</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div id="main">
+  <!-- Header/Home -->     
+      <header class="w3-container w3-padding-12 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo">Application Tracking System</h1>
+        <img src="static\uploads\free-applicant-tracking-system.png"  class="w3-image" width="300" height="310">
+      </header>
+      <div class="w3-content w3-justify w3-text-grey w3-padding-5" id="about">
+        <h2 class="w3-text-light-grey">What is an Applicant Tracking System?</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>Every organization is unique, but each one thrives on attracting, hiring, and maximizing top talent. Many businesses face major challenges at some point in the hiring or onboarding process. An ATS can offer a variety of capabilities that can help the organization find, hire, and retain the best candidates.
+        </p>
+      <div>
+    <form action = "http://localhost:5000/uploader#about" method = "POST" enctype = "multipart/form-data">
+      <div>
+        <button class="w3-btn w3-Blue">
+          
+          <i class="fa fa-download"></i><input type="file" name="file" id="file" value= "D:\Adfolks\SelfLearningProjects\TextSearchingApplication\static\uploads\DineeshResume_2022 (1).pdf" accept=".pdf,.doc,.docx" required/>
+        </button>
+       
+        
+      </div>
+      <br>
+      <div>
+        <!--<form action = "http://localhost:5000/uploaderdata#about" method = "POST" enctype = "multipart/form-data">-->
+        <label for="include_area">Keywords</label>
+        <br>
+        <textarea id="include_area"  autofocus name="include_area" rows="4" cols="40" placeholder="Enter the Keywords like Skill1,Skill2/Skill3,Skill4 etc.." required></textarea>
+        <br>
+        <!--<label for="job_title">Job Title</label>
+        <br>
+        <input type="text" autofocus name="job_title" id="job_title">-->
+        <!--<input type="submit" value="Save the job" name="job_submit" id="job_submit">
+        </form>-->
+      </div>
+      <!--<div class="next">
+        <label for="enclude-area">Nice to Have</label><br>
+        <textarea id="enclude-area" name="enclude-area" rows="10" cols="20">
+            </textarea>
+          </div>-->
+          <!--<div class="w3-row-padding" style="margin:0 -16px;; position:absolute; left:730px; top:580px;" >
+     
+            <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+              <li class="w3-dark-grey w3-xlarge w3-padding-32">{% if list[3]/list[4] >= 0.75%}
+                Shortlist              
+            {%else%}
+            Reject
+            {% endif %}</li>
+              <li class="w3-padding-16">
+                The words to search{{ list[0] }}</li>
+                
+              <li class="w3-padding-16">The words found in pdf{{ list[1] }}</li>
+              <li class="w3-padding-16">
+                The words frequency in the pdf{{ list[5] }}</li>
+              <li class="w3-padding-16">Number of words{{ list[3] }}</li>
+              
+            </ul>
+          
+    </div>     -->
+    <div class="w3-row-padding" style="margin:0 -16px;; position:absolute; left:730px; top:580px;" >
+     
+      <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">{% if list[3]/list[4] >= 0.75%}
+          Shortlist <br>{{ (list[3]/list[4] * 100)|round|int }}% Matching            
+      {%else%}
+      Reject <br>{{ (list[3]/list[4]*100)|round|int }}% Matching 
+      {% endif %}</li>
+      <li class="w3-dark-grey "> <img src="static\uploads\graph.png" style="width:400px;height:400px"></li>
+      <!--<li class="w3-dark-grey  w3-padding-32">Words to search {{list[0]}}</li>
+      <li class="w3-dark-grey  w3-padding-32">Words to search count {{list[4]}}</li>
+      <li class="w3-dark-grey  w3-padding-32">Words to found {{list[1]}}</li>
+      <li class="w3-dark-grey  w3-padding-32">Words found in pdf count {{list[3]}}</li>
+      <li class="w3-dark-grey  w3-padding-32">frequency of words {{list[2]}}</li>-->
+      
+
+        </ul>
+           </div>
+    
+      <br>
+      <br>
+      <div>
+        <input type=submit value="Scan" />
+      
+    </div>
+    </form>
+    
+    
+  
+  </body>
+  <style>
+    .hidden{
+        display:none;
+    }
+    .button {
+        ackground-image: linear-gradient(#f7f8fa ,#e7e9ec);
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: rgb(255 255 255 / 60%) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 14px;
+    height: 29px;
+    font-size: 13px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 11px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+      }
+    .next{
+        position:absolute;
+        left:480px;
+        top:585px;
+    }
+    </style>
+
+</html>
